@@ -26,4 +26,10 @@ function generateData(){
     
     //insert the elements to the div container
     document.getElementById('dataContainer').append(p1,p2,p3,p4,p5)
+
+    //Calculate the daily price
+    calculateDailyWeeklyIncome(totalMilkInLitres)
+    calculateMonthlyIncome(totalMilkInLitres)
+    calculateYearlyIncome(totalMilkInLitres)
+
 }
