@@ -69,18 +69,18 @@ function calculateMonthlyIncome(litres){
     h3.textContent=("Monthly Income")
 
 
-    jan.textContent = `The total January income per month is ${litres*31} Kenyan Shillings`
-    feb.textContent = `The total February income per month is ${litres*29} Kenyan Shillings`
-    mar.textContent = `The total March income per month is ${litres*31} Kenyan Shillings`
-    apr.textContent = `The total April income per month is ${litres*30} Kenyan Shillings`
-    may.textContent = `The total May income per month is ${litres*31} Kenyan Shillings`
-    jun.textContent = `The total June income per month is ${litres*30} Kenyan Shillings`
-    jul.textContent = `The total July income per month is ${litres*31} Kenyan Shillings`
-    aug.textContent = `The total August income per month is ${litres*31} Kenyan Shillings`
-    sep.textContent = `The total September income per month is ${litres*30} Kenyan Shillings`
-    oct.textContent = `The total October income per month is ${litres*31} Kenyan Shillings`
-    nov.textContent = `The total November income per month is ${litres*30} Kenyan Shillings`
-    dec.textContent = `The total December income per month is ${litres*31} Kenyan Shillings`
+    jan.textContent = `The total January income is ${litres*31} Kenyan Shillings`
+    feb.textContent = `The total February income is ${litres*29} Kenyan Shillings`
+    mar.textContent = `The total March income  is ${litres*31} Kenyan Shillings`
+    apr.textContent = `The total April income  is ${litres*30} Kenyan Shillings`
+    may.textContent = `The total May income is ${litres*31} Kenyan Shillings`
+    jun.textContent = `The total June income is ${litres*30} Kenyan Shillings`
+    jul.textContent = `The total July income is ${litres*31} Kenyan Shillings`
+    aug.textContent = `The total August income is ${litres*31} Kenyan Shillings`
+    sep.textContent = `The total September income is ${litres*30} Kenyan Shillings`
+    oct.textContent = `The total October income is ${litres*31} Kenyan Shillings`
+    nov.textContent = `The total November income is ${litres*30} Kenyan Shillings`
+    dec.textContent = `The total December income  is ${litres*31} Kenyan Shillings`
 
 
     document.getElementById('dataContainer').append(h3, jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec)
