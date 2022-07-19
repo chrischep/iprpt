@@ -95,3 +95,10 @@ function calculateYearlyIncome(litres){
     document.getElementById('dataContainer').append(h3,yearly)
 
 }
+function resetForm(){
+    shedA.value =""
+    shedB.value =""
+    shedC.value =""
+    shedD.value =""
+    document.getElementById('data').className = 'hide'
+}
