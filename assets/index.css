@@ -69,3 +69,16 @@ input[type=reset]{
     font-size: 14px;
     
 }
+.bolder{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(228, 153, 15);
+    
+}
+h3{
+    margin-top: 5%;
+    
+}
+.hide{
+    display: none;
+}
