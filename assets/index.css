@@ -4,7 +4,50 @@
     box-sizing: border-box;
 }
 body{
-    background-size:auto;
+    background-image: url("https://media.istockphoto.com/photos/modern-presentation-background-picture-id1215185063?k=20&m=1215185063&s=612x612&w=0&h=Uqq5GrdzCGaPEyiMVFUcPUjiLOt2RiTE6mO5gzavN0k=");
+    background-size: cover;
+}
+section{
 
-    background:url('./images/');
+    display: flex;
+    justify-content: center;
+}
+h2, .container{
+    margin: 0% 5%
+}
+.form{
+    margin-top: 5%;
+    width: 30%;
+    height: 50%;
+    background: white;
+}
+
+.form h2{
+    color: aqua;
+    margin-top: 10%;
+    margin-left: 25%;
+    font-weight: 400;
+    font-size: 30px;
+}
+input[type=number]{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    margin-top: 10%;
+
+}
+  
+input[type=submit] {
+    background-color:black;
+    color: white;
+    margin: 10% 0%;
+    padding: 12px 40px 10px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+   
 }
