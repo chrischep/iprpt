@@ -33,3 +33,21 @@ function generateData(){
     calculateYearlyIncome(totalMilkInLitres)
 
 }
+function calculateDailyWeeklyIncome(litres){
+        //Create p element for displaying earnings
+        const daily = document.createElement('p'),
+        weekly = document.createElement('p')
+        h3 = document.createElement('h3')
+        h3.textContent=("Daily and Weekly Income")
+    
+        //Displaying daily incomes
+        daily.textContent = `The total income per day is ${litres*45} Kenyan Shillings`
+        daily.className = 'daily'
+    
+        //Displayinf weekly incomes
+        weekly.textContent = `The total weekly income is ${litres*45*7} Kenyan Shillings`
+        daily.className = 'daily'
+    
+        //Append the elements to the div container
+        document.getElementById('dataContainer').append(h3,daily, weekly)
+}
