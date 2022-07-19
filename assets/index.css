@@ -54,3 +54,6 @@ input[type=submit], input[type=reset] {
     text-align: center;
    
 }
+input[type=reset]{
+    background: black;
+}
