@@ -57,3 +57,15 @@ input[type=submit], input[type=reset] {
 input[type=reset]{
     background: black;
 }
+.dataContainer{
+    min-height: 300px;
+}.dataContainer h2{
+    margin-bottom: 5%;
+    color: rgb(94, 155, 155);
+}
+.dataContainer > p{
+    margin-left: 2%;
+    line-height: 1.5;
+    font-size: 14px;
+    
+}
