@@ -16,7 +16,8 @@ section{
 h2, .container{
     margin: 0% 5%
 }
-.form{
+
+.form , .dataContainer{
     margin-top: 5%;
     width: 30%;
     height: 50%;
@@ -40,8 +41,9 @@ input[type=number]{
 
 }
   
-input[type=submit] {
-    background-color:black;
+input[type=submit], input[type=reset] {
+    cursor: pointer;
+    background-color:rgb(228, 153, 15);
     color: white;
     margin: 10% 0%;
     padding: 12px 40px 10px 40px;
