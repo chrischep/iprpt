@@ -86,3 +86,12 @@ function calculateMonthlyIncome(litres){
     document.getElementById('dataContainer').append(h3, jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec)
 
 }
+function calculateYearlyIncome(litres){
+    const yearly = document.createElement('p')
+    h3 = document.createElement('h3')
+    h3.textContent=("Yearly Income")
+
+    yearly.textContent = `The total income per year is ${litres*366} Kenyan shillings`
+    document.getElementById('dataContainer').append(h3,yearly)
+
+}
